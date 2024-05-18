@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>PasKuh</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="style/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav
+class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top"
+data-aos="fade-down"
+>
+<div class="container">
+  <a class="navbar-brand" href="/index.html">
+    <img src="/images/Logo_2 Pasku.png" width="160" alt="Logo" />
+  </a>
+  
+  <!-- Form pencarian -->
+  <div class="row flex-grow-1 ml-3">
+    <div class="col-md-auto">
+      <form method="GET" >
+        <div class="input-group">
+          <input type="search" name="query" class="form-control" placeholder="Cari produk...." aria-label="Search" required>
+          <div class="input-group-append">
+            <button type="submit" class="btn btn-secondary">Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarResponsive"
+    aria-controls="navbarResponsive"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+   <!-- Daftar navigasi -->
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav ml-auto">
+
+      <!-- Navigasi Home -->
+      <li class="nav-item active">
+        <a class="nav-link" href="/index.html">Home </a>
+      </li>
+
+      <!-- Navigasi Categories -->
+      <li class="nav-item">
+        <a class="nav-link" href="/categories.html">Categories</a>
+      </li>
+      
+      <!-- Navigasi Cart -->
+      <li class="nav-item">
+        <a class="nav-link" href="/register.html" >register</a>
+      </li>
+    
+      <!-- Navigasi Logout -->
+      <li class="nav-item">
+        <a class="nav-link logout-link" href="/login.html"
+          >
+            Login
+        </a>
+        <form id="logout-form"  method="POST" style="display: none;">
+            
+        </form>
+    </li>
+    
+    </ul>
+  </div>
+</div>
+</nav>
+
+    <!-- Page Content -->
+   
+
+<div class="page-content page-categories">
+    <section class="store-trend-categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="page-content page-home">
+                        <section class="store-carousel">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12" data-aos="zoom-in">
+                                        <div id="storeCarousel" class="carousel slide" data-ride="carousel">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="containerrdulu">
+                                <img src="images/Logo_5 Pasku.png" alt="Gambar Latar" class="img-fluid">
+                                <div class="text-overlaydulu">
+                                    <b>Anda Tidak Dapat Memasuki Halaman Tersebut.<br>Lakukan Login Terlebih Dahulu !!!</b>
+                                </div>
+                            </div> 
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="pt-4 pb-2">
+              2019 Copyright Store. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/script/navbar-scroll.js"></script>
+  </body>
+</html>
